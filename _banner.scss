@@ -1,0 +1,74 @@
+.banner {
+  display: flex;
+  align-items: center;
+  // neu hinh to thi khoi can
+  // margin-top: 50px;
+  &-info {
+    width: 35%;
+  }
+  &-heading {
+    font-size: 55px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+  }
+  &-heading span {
+    display: block;
+  }
+  &-desc {
+    margin-bottom: 50px;
+  }
+  &-img {
+    width: 65%;
+    transform: translateX(100px);
+  }
+  &-links {
+    .button:first-child {
+      margin-right: 40px;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }
+  @media screen and (max-width: 1279px) {
+    &-heading {
+      font-size: 45px;
+      margin-bottom: 30px;
+    }
+    &-desc {
+      margin-bottom: 30px;
+    }
+    &-links {
+      .button {
+        padding: 15px 20px;
+      }
+      .button:first-child {
+        margin-right: 10px;
+      }
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    flex-direction: column;
+    & > * {
+      width: 100%;
+    }
+    .banner-img {
+      transform: none;
+      margin-top: 25px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    padding-top: 30px;
+    &-heading {
+      margin-bottom: 15px;
+      span {
+        display: unset;
+      }
+    }
+  }
+}
+.prod {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}

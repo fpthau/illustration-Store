@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT-ICON -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- FONT-FAMILY -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Detail-Product</title>
+  </head>
+  <body>
+    <!-- LOGIN -->
+    <div id="login" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <!-- LOGIN -->
+      <div class="singup">
+        <h1 class="singup-heading">Login</h1>
+        <button class="singup-social">
+          <i class="fa fa-google singup-social-icon"></i>
+          <span class="singup-social-text">Login with Google</span>
+        </button>
+        <div class="singup-or"><span>Or</span></div>
+        <form action="#" class="sing-fomr" autocomplete="off">
+          <label for="fullname" class="singup-label">Full name</label>
+          <input
+            type="text"
+            id="fullname"
+            class="singup-input"
+            placeholder="Ten cua ban"
+          />
+          <label for="email" class="singup-label">Email</label>
+          <input
+            type="email"
+            id="email"
+            class="singup-input"
+            placeholder="mailcuaban@gmail.com.."
+          />
+          <button class="singup-submit">LOGIN</button>
+        </form>
+        <p class="singup-already">
+          <span>Already have a account?</span>
+          <a href="#" class="singup-login-link">Sing up</a>
+        </p>
+      </div>
+    </div>
+    <!-- SIGNUP -->
+    <div id="mySidena" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNa()"
+        >&times;</a
+      >
+      <!-- SIGNup -->
+      <div class="singup">
+        <h1 class="singup-heading">Create account</h1>
+        <form action="#" class="signup-form" autocomplete="off">
+          <!-- <div class="form-group"> -->
+          <label for="fullname" class="singup-label">Full name</label>
+          <input
+            type="text"
+            id="fullname"
+            class="singup-input"
+            placeholder="Mid name"
+          />
+          <div class="singup-group">
+            <input
+              type="text"
+              id="fullname"
+              class="singup-input"
+              placeholder="First name"
+            />
+            <input
+              type="text"
+              id="fullname"
+              class="singup-input"
+              placeholder="Last name"
+            />
+          </div>
+          <label for="email" class="singup-label">Email</label>
+          <input
+            type="email"
+            id="email"
+            class="singup-input"
+            placeholder="mailcuaban@gmail.com.."
+          />
+          <button class="singup-submit">SIGN UP</button>
+        </form>
+        <p class="singup-already">
+          <span>Already have a account?</span>
+          <a href="#" class="singup-login-link">Login</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- LANDING-PAGE -->
+    <div class="wrapper">
+      <div class="container">
+        <!-- HEADER -->
+        <header class="header">
+          <a href="./index.html" class="header-logo">
+            <img srcset="./img/logo.png 2x" alt="" class="header-logo-image" />
+          </a>
+          <ul class="header-menu">
+            <li class="header-menu-item">
+              <a href="./index.html" class="header-menu-link"> Home </a>
+            </li>
+            <li class="header-menu-item">
+              <a href="./product.html" class="header-menu-link"> Product </a>
+            </li>
+            <li class="header-menu-item">
+              <a href="./price.html" class="header-menu-link"> Pricing </a>
+            </li>
+            <li class="header-menu-item">
+              <a href="./about.html" class="header-menu-link"> About </a>
+            </li>
+          </ul>
+          <div class="header-auth">
+            <a href="#" class="button" onclick="openNav()" &#9776;>Login</a>
+            <a
+              href="#"
+              class="button button--primary"
+              onclick="openNa()"
+              &#9776;
+              >Sign up</a
+            >
+          </div>
+          <i class="fa fa-bars menu-toggle"></i>
+        </header>
+        <!-- TITLE-SANPHAM -->
+        <section class="product">
+          <div class="product-content">
+            <h1 class="product-heading">
+              <span>Product are sold</span> <br />
+              <span>for charity purpose</span>
+            </h1>
+          </div>
+          <p class="text product-descc">
+            We are committed to the quality of products that meet international
+            standards and have been tested with 50 years of experience, we will
+            give the best results.
+          </p>
+        </section>
+        <!-- NOIDUNG-SPHAM -->
+        <section class="detail">
+          <img src="./img/img18.jpeg" alt="" class="detail-img1" />
+          <div class="detail-content">
+            <span class="block-caption block-caption--left"> Solo studio </span>
+            <h2 class="block-heading">
+              <span>Product for</span>
+              <span>charity purposes</span>
+            </h2>
+            <p class="text detail-desc">
+              At vero eos et accusamus et iusto odio digmissimos ducimus qui
+              blanditiis praesentium voluptatum delenniti atque corrupti quos
+              dolorres.
+            </p>
+            <div class="banner-links">
+              <a href="./index.html" class="button button--primary">Buy now</a>
+              <a href="./product.html" class="button button--outline"
+                >Back to Product</a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="detail">
+          <img src="./img/img19.jpg" alt="" class="detail-img1" />
+          <img src="./img/img20.png" alt="" class="detail-img1" />
+        </section>
+        <!-- FOOTER -->
+        <footer class="footer">
+          <div class="footer-column">
+            <a href="index.hmtl" class="logo">
+              <img
+                srcset="./img/logo.png 2x"
+                alt=""
+                class="header-logo-image"
+              />
+            </a>
+            <p class="text text--dark footer-desc">
+              Let's work together to create fantastic product.
+            </p>
+            <div class="social">
+              <a href="#" class="social-link bg-gg">
+                <i class="fa fa-google"></i>
+              </a>
+              <a href="#" class="social-link bg-tt">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="#" class="social-link bg-int">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3 class="footer-heading">Product</h3>
+            <ul class="footer-links">
+              <li class="footer-link-item">
+                <a href="#" class="footer-link">LandingPage</a>
+              </li>
+              <li class="footer-link-item">
+                <a href="#" class="footer-link">Feature</a>
+              </li>
+              <li class="footer-link-item">
+                <a href="#" class="footer-link">Documentation</a>
+              </li>
+              <li class="footer-link-item">
+                <a href="#" class="footer-link">Referral Program</a>
+              </li>
+              <li class="footer-link-item">
+                <a href="#" class="footer-link">Pricing</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3 class="footer-heading">Services</h3>
+            <ul class="footer-links">
+              <li class="footer-link-item">
+                <a href="#" class="footer-link">Documentation</a>
+              </li>
+              <li class="footer-link-item">
+                <a href="#" class="footer-link">Design</a>
+              </li>
+              <li class="footer-link-item">
+                <a href="#" class="footer-link">Themes</a>
+              </li>
+              <li class="footer-link-item">
+                <a href="#" class="footer-link">illustrations</a>
+              </li>
+              <li class="footer-link-item">
+                <a href="#" class="footer-link">UI Kit</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3 class="footer-heading">Company</h3>
+            <ul class="footer-links">
+              <li class="footer-link-item">
+                <a href="#" class="footer-link">About</a>
+              </li>
+              <li class="footer-link-item">
+                <a href="#" class="footer-link">Terms</a>
+              </li>
+              <li class="footer-link-item">
+                <a href="#" class="footer-link">Privacy Policy</a>
+              </li>
+              <li class="footer-link-item">
+                <a href="#" class="footer-link">Careers</a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script src="./app.js"></script>
+    <!-- LOGIN -->
+    <script>
+      function openNav() {
+        document.getElementById("login").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("login").style.width = "0";
+      }
+    </script>
+    <!-- SIGNUP -->
+    <script>
+      function openNa() {
+        document.getElementById("mySidena").style.width = "100%";
+      }
+
+      function closeNa() {
+        document.getElementById("mySidena").style.width = "0";
+      }
+    </script>
+  </body>
+</html>

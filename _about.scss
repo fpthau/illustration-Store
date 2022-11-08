@@ -1,0 +1,51 @@
+.price {
+  margin-top: 80px;
+  &-img {
+    margin-top: 36px;
+  }
+}
+.app {
+  margin-bottom: 90px;
+  &-name {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 10px;
+    border-top: 1px solid #eee;
+    padding-top: 25px;
+    margin-top: 20px;
+  }
+  &-btn {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &-positon {
+    color: $gray;
+    font-size: 14px;
+    display: block;
+  }
+}
+.about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  &-list {
+    display: flex;
+  }
+  &-item {
+    flex: 1;
+    padding: 45px 20px;
+    // border: 1px solid #eee;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.2s linear;
+  }
+}
+.block2 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
